@@ -42,7 +42,7 @@ export default function App() {
     if (inputEmoji in emojiDictionary) {
       setMeaning(emojiDictionary[inputEmoji]);
     } else {
-      setMeaning("failure to recognise this emoji");
+      setMeaning("can't to recognise this emoji");
     }
   }
 
